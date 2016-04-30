@@ -12,7 +12,6 @@ define rsyncd::export (
   $deny=undef,
   $prexferexec=undef,
   $postxferexec=undef,
-  $tag=undef
 ) {
 
   $file = '/etc/rsyncd.conf'
